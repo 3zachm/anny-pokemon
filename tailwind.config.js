@@ -6,7 +6,11 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        exo: ["var(--font-exo)", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

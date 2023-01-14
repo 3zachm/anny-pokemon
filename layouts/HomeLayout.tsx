@@ -25,22 +25,22 @@ function HomeLayout(props: HomeLayoutProps) {
       variants={containerVariants}
     >
       <Head>
-        <title>?</title>
-        <meta name="description" content="?" />
+        <title>anny&apos;s list</title>
+        <meta name="description" content="this is anny's list" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#c084fc" />
-        <meta property="og:title" content="?" />
-        <meta property="og:description" content="?" />
-        <meta property="og:image" content="/img/logo.webp" />
+        <meta property="og:title" content="anny's list" />
+        <meta property="og:description" content="this is anny's list" />
+        <meta property="og:image" content="/img/art/906.webp" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="?" />
+        <meta property="og:site_name" content="anny's list" />
       </Head>
 
       <LazyMotion features={domAnimation}>
         <AnimatePresence mode="wait">
           <m.div
             key={router.route.concat("layout-fade")}
-            className="h-screen w-screen"
+            className="h-screen w-screen overflow-y-scroll"
             variants={containerVariants}
             initial="initial"
             animate="animate"

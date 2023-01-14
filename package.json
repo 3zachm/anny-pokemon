@@ -1,11 +1,11 @@
 {
-  "name": "simple-template",
+  "name": "anny-pokemon",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3015",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3015",
     "lint": "next lint",
     "prepare": "husky install"
   },
